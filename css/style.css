@@ -74,6 +74,14 @@ td { vertical-align: top; }
    Author:
    ========================================================================== */
 
+.container {
+  text-align: center;
+}
+
+.container h1 {
+  margin-top: 0;
+  text-transform: uppercase;
+}
 
 
 
@@ -88,8 +96,14 @@ td { vertical-align: top; }
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 48em) {
   /* Style adjustments for viewports that meet the condition */
+
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
 }
 
 /* =============================================================================
