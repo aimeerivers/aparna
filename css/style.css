@@ -83,6 +83,10 @@ td { vertical-align: top; }
   text-transform: uppercase;
 }
 
+.container h1 div {
+  line-height: 0.9em;
+}
+
 
 
 
