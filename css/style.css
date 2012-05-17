@@ -81,10 +81,11 @@ td { vertical-align: top; }
 .container h1 {
   margin-top: 0;
   text-transform: uppercase;
+  font-family: 'Bitter', serif;
 }
 
 .container h1 div {
-  line-height: 0.9em;
+  line-height: 0.7em;
 }
 
 
