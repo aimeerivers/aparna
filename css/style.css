@@ -88,6 +88,12 @@ td { vertical-align: top; }
   line-height: 0.7em;
 }
 
+.job-title {
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  margin-left: 10px;
+}
+
 
 
 
