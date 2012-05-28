@@ -74,26 +74,55 @@ td { vertical-align: top; }
    Author:
    ========================================================================== */
 
+body {
+  background-size: 100%;
+  background-image: url('../img/background.jpg');
+  color: #eee;
+}
+
 .container {
   text-align: center;
 }
 
+.vcard {
+  margin: 0 auto;
+  width: 860px;
+}
+
+.container h1, .container h2 {
+  float: left;
+  text-align:left;
+}
+
 .container h1 {
+  width: 100%;
   margin-top: 0;
   text-transform: uppercase;
   font-family: 'Bitter', serif;
+  max-width: 600px;
+}
+
+.container h2 {
+  width: 260px;
+  margin-top: 5px;
+  font-size: 5.09em;
+  word-wrap: break-word;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  line-height: 0.8em;
+}
+
+.container .given-name {
+  margin-left: 7px;
 }
 
 .container h1 div {
   line-height: 0.7em;
 }
 
-.job-title {
-  text-transform: uppercase;
-  letter-spacing: 6px;
-  margin-left: 10px;
+.silhouette {
+  clear: left;
 }
-
 
 
 
