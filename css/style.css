@@ -80,7 +80,6 @@ body {
   color: #eee;
 }
 
-
 .vcard {
   margin: 0 auto;
 }
@@ -91,7 +90,7 @@ body {
 
 .container h1 {
   margin-top: 0;
-  font-size: 6.5em;
+  font-size: 5.5em;
   line-height: 1.1em;
   text-transform: uppercase;
   font-family: 'Bitter', serif;
@@ -104,7 +103,7 @@ body {
 
 .container h2 {
   margin-top: 23px;
-  font-size: 2.85em;
+  font-size: 2.34em;
   text-transform: uppercase;
 
 }
@@ -125,17 +124,23 @@ body {
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 48em) {
-  /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 30em) {
+  /* 480px */
 
-  .container {
-    max-width: 1024px;
-    margin: 0 auto;
+  .container h1 {
+    font-size: 6.5em;
   }
 
+  .container h2 {
+    font-size: 2.85em;
+  }
+}
+
+@media only screen and (min-width: 40em) {
+  /* 640px */
+
   .vcard {
-    margin: 0 auto;
-    max-width: 860px;
+    max-width: 640px;
   }
 
   .container h1, .container h2 {
@@ -144,17 +149,48 @@ body {
   }
 
   .container h1 {
-    width: 600px;
+    width: 435px;
+    font-size: 5.8em;
+  }
+
+  .container h2 {
+    width: 205px;
+    word-wrap: break-word;
+    letter-spacing: 8px;
+    line-height: 0.87em;
+    font-size: 3.8em;
+    margin-top: 22px;
+  }
+
+  .container .given-name {
+    margin-left: 6px;
+  }
+
+}
+
+@media only screen and (min-width: 48em) {
+  /* 768px */
+
+  .container {
+    max-width: 1024px;
+    margin: 0 auto;
+  }
+
+  .vcard {
+    max-width: 768px;
+  }
+
+  .container h1 {
+    width: 520px;
     font-size: 7.1em;
   }
 
   .container h2 {
-    width: 260px;
-    word-wrap: break-word;
-    letter-spacing: 6px;
+    width: 248px;
+    letter-spacing: 7px;
     line-height: 0.8em;
-    font-size: 5.09em;
-    margin-top: 27px  ;
+    font-size: 4.95em;
+    margin-top: 27px;
   }
 
   .container .given-name {
