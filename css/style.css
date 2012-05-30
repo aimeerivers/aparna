@@ -80,6 +80,12 @@ body {
   color: #eee;
 }
 
+.container {
+  max-width: 420px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
 .vcard {
   margin: 0 auto;
 }
@@ -127,6 +133,10 @@ body {
 @media only screen and (min-width: 30em) {
   /* 480px */
 
+  .container {
+    max-width: 600px;
+  }
+
   .container h1 {
     font-size: 6.5em;
   }
@@ -139,8 +149,12 @@ body {
 @media only screen and (min-width: 40em) {
   /* 640px */
 
+  .container {
+    max-width: 730px;
+  }
+
   .vcard {
-    max-width: 640px;
+    width: 640px;
   }
 
   .container h1, .container h2 {
@@ -173,11 +187,10 @@ body {
 
   .container {
     max-width: 1024px;
-    margin: 0 auto;
   }
 
   .vcard {
-    max-width: 768px;
+    width: 768px;
   }
 
   .container h1 {
@@ -190,7 +203,7 @@ body {
     letter-spacing: 7px;
     line-height: 0.8em;
     font-size: 4.95em;
-    margin-top: 27px;
+    margin-top: 26px;
   }
 
   .container .given-name {
