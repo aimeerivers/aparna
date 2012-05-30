@@ -80,44 +80,33 @@ body {
   color: #eee;
 }
 
-.container {
-  text-align: center;
-}
 
 .vcard {
   margin: 0 auto;
-  width: 860px;
 }
 
 .container h1, .container h2 {
-  float: left;
-  text-align:left;
+  text-align: center;
 }
 
 .container h1 {
-  width: 100%;
   margin-top: 0;
+  font-size: 6.5em;
+  line-height: 1.1em;
   text-transform: uppercase;
   font-family: 'Bitter', serif;
-  max-width: 600px;
+  margin-bottom: 0px;
+}
+
+.container h1 .family-name {
+  font-size: 1.9em;
 }
 
 .container h2 {
-  width: 260px;
-  margin-top: 5px;
-  font-size: 5.09em;
-  word-wrap: break-word;
+  margin-top: 23px;
+  font-size: 2.85em;
   text-transform: uppercase;
-  letter-spacing: 6px;
-  line-height: 0.8em;
-}
 
-.container .given-name {
-  margin-left: 7px;
-}
-
-.container h1 div {
-  line-height: 0.7em;
 }
 
 .silhouette {
@@ -142,6 +131,34 @@ body {
   .container {
     max-width: 1024px;
     margin: 0 auto;
+  }
+
+  .vcard {
+    margin: 0 auto;
+    max-width: 860px;
+  }
+
+  .container h1, .container h2 {
+    float: left;
+    text-align:left;
+  }
+
+  .container h1 {
+    width: 600px;
+    font-size: 7.1em;
+  }
+
+  .container h2 {
+    width: 260px;
+    word-wrap: break-word;
+    letter-spacing: 6px;
+    line-height: 0.8em;
+    font-size: 5.09em;
+    margin-top: 27px  ;
+  }
+
+  .container .given-name {
+    margin-left: 7px;
   }
 
 }
