@@ -288,10 +288,36 @@ body {
     background-color: transparent;
   }
 
+  .abilities ul li.guitar .caption {
+    margin-top: 2em;
+    -ms-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -webkit-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+    transform: rotate(6deg);
+  }
+
+  .abilities ul li.guitar .square {
+    background-color: #FDB356;
+  }
+
   .abilities ul li.human-jukebox {
     left: 15%;
     bottom: 5%;
     background-color: transparent;
+  }
+
+  .abilities ul li.human-jukebox .caption {
+    margin-top: 2em;
+    -ms-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -webkit-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    transform: rotate(3deg);
+  }
+
+  .abilities ul li.human-jukebox .square {
+    background-color: #56A0FE;
   }
 
 }
