@@ -272,7 +272,7 @@ body {
   }
 
   .abilities ul li.rubiks-cube .caption {
-    margin-top: 2em;
+    padding-top: 2em;
     -ms-transform: rotate(-5deg);
     -moz-transform: rotate(-5deg);
     -webkit-transform: rotate(-5deg);
@@ -291,7 +291,7 @@ body {
   }
 
   .abilities ul li.guitar .caption {
-    margin-top: 2em;
+    padding-top: 2em;
     -ms-transform: rotate(6deg);
     -moz-transform: rotate(6deg);
     -webkit-transform: rotate(6deg);
@@ -310,7 +310,7 @@ body {
   }
 
   .abilities ul li.human-jukebox .caption {
-    margin-top: 2em;
+    padding-top: 2em;
     -ms-transform: rotate(3deg);
     -moz-transform: rotate(3deg);
     -webkit-transform: rotate(3deg);
