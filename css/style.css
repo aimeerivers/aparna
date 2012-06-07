@@ -75,7 +75,6 @@ td { vertical-align: top; }
    ========================================================================== */
 
 body {
-  background-size: 100%;
   background-image: url('../img/background.jpg');
   color: #eee;
 }
