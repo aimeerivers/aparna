@@ -118,6 +118,46 @@ body {
   clear: left;
 }
 
+.abilities .heading {
+  display: none;
+}
+
+.abilities ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.abilities ul li {
+  padding: 1em;
+  margin: 0.5em;
+  color: #000;
+  font-weight: bold;
+  border-width: 3px;
+  border-style: solid;
+  -webkit-border-radius: 0.5em;
+  -moz-border-radius: 0.5em;
+  border-radius: 0.5em;
+}
+
+.abilities ul li.rubiks-cube {
+  background-color: #56FD5F;
+  border-color: #113313;
+  color: #113313;
+}
+
+.abilities ul li.guitar {
+  background-color: #FDB356;
+  border-color: #332411;
+  color: #332411;
+}
+
+.abilities ul li.human-jukebox {
+  background-color: #56A0FE;
+  border-color: #112033;
+  color: #112033;
+}
+
 
 
 
