@@ -115,6 +115,14 @@ body {
 
 .silhouette {
   clear: left;
+  text-align: center;
+  margin-top: -30px;
+  width: 100%;
+}
+
+.silhouette img {
+  width: 50%;
+  margin-bottom: 20px;
 }
 
 .abilities .heading {
@@ -219,6 +227,24 @@ body {
 
   .container .given-name {
     margin-left: 6px;
+  }
+
+
+  .main {
+    position: relative;
+    clear: both;
+  }
+
+  .silhouette {
+    position: absolute;
+    display: inline-block;
+  }
+
+  .silhouette img {
+    left: 13.5%;
+    position: relative;
+    width: 40%;
+    margin-bottom: 50px;
   }
 
   .abilities ul {
@@ -352,8 +378,13 @@ body {
     margin-left: 7px;
   }
 
+  .silhouette img {
+    width: auto;
+    left: 15%;
+  }
+
   .abilities ul {
-    height: 35em;
+    height: 50em;
   }
 
   .abilities ul li {
