@@ -95,7 +95,7 @@ body {
 
 .container h1 {
   margin-top: 0;
-  font-size: 5.5em;
+  font-size: 5.3em;
   line-height: 1.1em;
   text-transform: uppercase;
   font-family: 'Bitter', serif;
@@ -166,13 +166,6 @@ body {
 }
 
 
-
-
-
-
-
-
-
 /* =============================================================================
    Media Queries
    ========================================================================== */
@@ -190,7 +183,7 @@ body {
   }
 
   .container h2 {
-    font-size: 2.85em;
+    font-size: 2.8em;
   }
 }
 
