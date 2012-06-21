@@ -286,7 +286,7 @@ body {
 
   .abilities ul li.rubiks-cube {
     left: 5%;
-    top: 10%;
+    top: 3%;
     background-color: transparent;
   }
 
@@ -305,7 +305,7 @@ body {
 
   .abilities ul li.guitar {
     right: 5%;
-    top: 20%;
+    top: 30%;
     background-color: transparent;
   }
 
