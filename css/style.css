@@ -187,7 +187,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 40em) {
+@media only screen and (min-width: 35em) {
   /* 640px */
 
   .container {
@@ -196,7 +196,7 @@ body {
   }
 
   .vcard {
-    width: 640px;
+    width: 560px;
   }
 
   .container h1, .container h2 {
@@ -205,17 +205,17 @@ body {
   }
 
   .container h1 {
-    width: 435px;
-    font-size: 5.8em;
+    width: 372px;
+    font-size: 5em;
   }
 
   .container h2 {
-    width: 205px;
+    width: 188px;
     word-wrap: break-word;
     letter-spacing: 8px;
     line-height: 0.87em;
-    font-size: 3.8em;
-    margin-top: 22px;
+    font-size: 3.31em;
+    margin-top: 16px;
   }
 
   .container .given-name {
