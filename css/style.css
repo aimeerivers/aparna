@@ -285,7 +285,7 @@ body {
   }
 
   .abilities ul li.rubiks-cube {
-    left: 5%;
+    left: 4%;
     top: 3%;
     background-color: transparent;
   }
@@ -304,7 +304,7 @@ body {
   }
 
   .abilities ul li.guitar {
-    right: 5%;
+    right: 7%;
     top: 30%;
     background-color: transparent;
   }
@@ -323,8 +323,8 @@ body {
   }
 
   .abilities ul li.human-jukebox {
-    left: 15%;
-    bottom: 5%;
+    left: 12%;
+    bottom: 1%;
     background-color: transparent;
   }
 
