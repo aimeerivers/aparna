@@ -145,6 +145,15 @@ body {
   -webkit-border-radius: 0.5em;
   -moz-border-radius: 0.5em;
   border-radius: 0.5em;
+  position: relative;
+}
+
+.abilities ul li img {
+  position: absolute;
+  height: 80px;
+  right: 0;
+  top: -15px;
+  z-index: 2;
 }
 
 .abilities ul li.rubiks-cube {
@@ -157,6 +166,14 @@ body {
   background-color: #FDB356;
   border-color: #332411;
   color: #332411;
+}
+
+.abilities ul li.guitar img {
+  left: 0;
+}
+
+.abilities ul li.guitar .caption {
+  padding-left: 60px;
 }
 
 .abilities ul li.human-jukebox {
@@ -316,6 +333,7 @@ body {
     -webkit-transform: rotate(6deg);
     -o-transform: rotate(6deg);
     transform: rotate(6deg);
+    padding-left: 0;
   }
 
   .abilities ul li.guitar .square {
