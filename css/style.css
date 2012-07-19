@@ -156,10 +156,19 @@ body {
   z-index: 2;
 }
 
+.abilities ul li .caption {
+  text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+}
+
 .abilities ul li.rubiks-cube {
   background-color: #56FD5F;
   border-color: #113313;
   color: #113313;
+}
+
+.abilities ul li.rubiks-cube img {
+  height: 70px;
+  top: -9px;
 }
 
 .abilities ul li.guitar {
@@ -307,6 +316,12 @@ body {
     background-color: transparent;
   }
 
+  .abilities ul li.rubiks-cube img {
+    top: 98px;
+    right: -20px;
+    height: 76px;
+  }
+
   .abilities ul li.rubiks-cube .caption {
     padding-top: 2em;
     -ms-transform: rotate(-5deg);
@@ -336,6 +351,13 @@ body {
     padding-left: 0;
   }
 
+  .abilities ul li.guitar img {
+    left: auto;
+    right: -68px;
+    top: 60px;
+    height: 160px;
+  }
+
   .abilities ul li.guitar .square {
     background-color: #FDB356;
   }
@@ -353,6 +375,12 @@ body {
     -webkit-transform: rotate(3deg);
     -o-transform: rotate(3deg);
     transform: rotate(3deg);
+  }
+
+  .abilities ul li.human-jukebox img {
+    right: -40px;
+    top: 95px;
+    height: 100px;
   }
 
   .abilities ul li.human-jukebox .square {
@@ -400,6 +428,24 @@ body {
 
   .abilities ul li {
     font-size: 1.4em;
+  }
+
+  .abilities ul li.rubiks-cube img {
+    top: 126px;
+    right: -42px;
+    height: 117px;
+  }
+
+  .abilities ul li.guitar img {
+    right: -83px;
+    top: 93px;
+    height: 230px;
+  }
+
+  .abilities ul li.human-jukebox img {
+    right: -50px;
+    top: 135px;
+    height: 150px;
   }
 
 }
